@@ -6,6 +6,7 @@ import com.tejaswitandelsapplication.app.appcomponents.base.BaseActivity
 import com.tejaswitandelsapplication.app.databinding.ActivityAppNavigationBinding
 import com.tejaswitandelsapplication.app.modules.adacana.ui.AdacanaActivity
 import com.tejaswitandelsapplication.app.modules.appnavigation.`data`.viewmodel.AppNavigationVM
+import com.tejaswitandelsapplication.app.modules.forgotpassword.ui.ForgotPasswordActivity
 import com.tejaswitandelsapplication.app.modules.login.ui.LoginActivity
 import com.tejaswitandelsapplication.app.modules.loginorsignup.ui.LoginOrSignupActivity
 import kotlin.String
@@ -21,12 +22,16 @@ public class AppNavigationActivity :
   }
 
   public override fun setUpClicks(): Unit {
-    binding.linearLoginOrSignUp.setOnClickListener {
-      val destIntent = LoginOrSignupActivity.getIntent(this, null)
+    binding.linearForgotPassword.setOnClickListener {
+      val destIntent = ForgotPasswordActivity.getIntent(this, null)
       startActivity(destIntent)
     }
     binding.linearAdacana.setOnClickListener {
       val destIntent = AdacanaActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.linearLoginOrSignUp.setOnClickListener {
+      val destIntent = LoginOrSignupActivity.getIntent(this, null)
       startActivity(destIntent)
     }
     binding.linearLogin.setOnClickListener {

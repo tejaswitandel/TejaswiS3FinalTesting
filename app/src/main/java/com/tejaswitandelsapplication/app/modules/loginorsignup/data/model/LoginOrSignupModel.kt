@@ -8,19 +8,19 @@ public data class LoginOrSignupModel(
   /**
    * TODO Replace with dynamic value
    */
-  public var txtWelcomeToOur: String? =
+  public var txtWelcometoour: String? =
       MyApp.getInstance().resources.getString(R.string.msg_welcome_to_our)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtOurCommunityI: String? =
+  public var txtOurcommunityi: String? =
       MyApp.getInstance().resources.getString(R.string.msg_our_community_i)
   ,
   /**
    * TODO Replace with dynamic value
    */
-  public var txtGetInThrough: String? =
+  public var txtGetinthrough: String? =
       MyApp.getInstance().resources.getString(R.string.lbl_get_in_through)
 
 )

@@ -32,5 +32,11 @@ public data class AppNavigationModel(
    * TODO Replace with dynamic value
    */
   public var txtLogin: String? = MyApp.getInstance().resources.getString(R.string.lbl_login)
+  ,
+  /**
+   * TODO Replace with dynamic value
+   */
+  public var txtForgotPassword: String? =
+      MyApp.getInstance().resources.getString(R.string.lbl_forgot_password)
 
 )

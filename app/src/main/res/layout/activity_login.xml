@@ -5,7 +5,7 @@
         <variable name="loginVM" type="com.tejaswitandelsapplication.app.modules.login.data.viewmodel.LoginVM"/>
     </data>
     <LinearLayout android:gravity="start"
-        android:id="@+id/linearGroup46"
+        android:id="@+id/linearGroup63"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylewhite_A700">
@@ -24,14 +24,14 @@
                     android:layout_width="@dimen/_72pxh"
                     android:scaleType="fitXY" android:src="@drawable/img_back_1"/>
                 <TextView android:alpha="0.8" android:ellipsize="end"
-                    android:id="@+id/txtLogin"
+                    android:id="@+id/txtPersonality"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_16pxv"
                     android:layout_marginStart="@dimen/_178pxh"
                     android:layout_marginTop="@dimen/_17pxv"
                     android:layout_weight="0.45"
                     android:layout_width="0dp" android:singleLine="true"
-                    android:text="@{loginVM.loginModel.txtLogin}"
+                    android:text="@{loginVM.loginModel.txtPersonality}"
                     style="@style/txtPoppinssemibold18" tools:text="@string/lbl_login"/>
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
@@ -43,25 +43,25 @@
             android:layout_marginTop="@dimen/_24pxv"
             android:layout_weight="1" android:layout_width="match_parent">
             <LinearLayout android:gravity="start"
-                android:id="@+id/linearGroup44"
+                android:id="@+id/linearGroup61"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent" android:orientation="vertical">
                 <TextView android:alpha="0.8"
-                    android:id="@+id/txtThisIsYourCo"
+                    android:id="@+id/txtThisisyourco"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_32pxh"
                     android:layout_marginStart="@dimen/_32pxh"
                     android:layout_width="match_parent"
-                    android:text="@{loginVM.loginModel.txtThisIsYourCo}"
+                    android:text="@{loginVM.loginModel.txtThisisyourco}"
                     style="@style/txtPoppinsbold34" tools:text="@string/msg_this_is_your_co"/>
                 <TextView android:alpha="0.4"
-                    android:id="@+id/txtOurCommunityI"
+                    android:id="@+id/txtOurcommunityi"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_32pxh"
                     android:layout_marginStart="@dimen/_32pxh"
                     android:layout_marginTop="@dimen/_12pxv"
                     android:layout_width="match_parent"
-                    android:text="@{loginVM.loginModel.txtOurCommunityI}"
+                    android:text="@{loginVM.loginModel.txtOurcommunityi}"
                     style="@style/txtPoppinsmedium12" tools:text="@string/msg_our_community_i2"/>
                 <ImageView android:id="@+id/imageLogo"
                     android:layout_gravity="center_horizontal"
@@ -103,15 +103,16 @@
                     android:singleLine="true"
                     android:text="@={loginVM.loginModel.etPasswordValue}"
                     android:textColorHint="@color/gray_900_7e" style="@style/etRoundedOutline"/>
-                <TextView android:ellipsize="end"
-                    android:id="@+id/txtForgotPassword"
+                <TextView android:clickable="true"
+                    android:ellipsize="end"
+                    android:id="@+id/txtForgotPasswor"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_34pxh"
                     android:layout_marginStart="@dimen/_34pxh"
                     android:layout_marginTop="@dimen/_24pxv"
                     android:layout_width="wrap_content"
                     android:singleLine="true"
-                    android:text="@{loginVM.loginModel.txtForgotPassword}"
+                    android:text="@{loginVM.loginModel.txtForgotPasswor}"
                     style="@style/txtPoppinssemibold12" tools:text="@string/msg_forgot_password"/>
                 <androidx.appcompat.widget.AppCompatButton
                     android:ellipsize="end" android:gravity="center"
@@ -138,12 +139,12 @@
                     android:layout_width="wrap_content" android:orientation="horizontal">
                     <TextView android:alpha="0.4"
                         android:ellipsize="end"
-                        android:id="@+id/txtDontHaveAnA"
+                        android:id="@+id/txtConfirmation"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.77"
                         android:layout_width="0dp"
                         android:singleLine="true"
-                        android:text="@{loginVM.loginModel.txtDontHaveAnA}"
+                        android:text="@{loginVM.loginModel.txtConfirmation}"
                         style="@style/txtPoppinsmedium12" tools:text="@string/msg_don_t_have_an_a"/>
                     <TextView android:ellipsize="end"
                         android:id="@+id/txtSignUp"

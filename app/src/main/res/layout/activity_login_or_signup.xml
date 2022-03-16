@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:orientation="vertical" style="@style/groupStylegray_50">
-        <LinearLayout android:id="@+id/linearGroup38"
+        <LinearLayout android:id="@+id/linearGroup55"
             android:layout_height="match_parent"
             android:layout_marginBottom="@dimen/_20pxv"
             android:layout_marginTop="@dimen/_21pxv"
@@ -22,22 +22,22 @@
                 android:layout_width="@dimen/_67pxh"
                 android:scaleType="fitXY" android:src="@drawable/img_back"/>
             <TextView android:alpha="0.8" android:gravity="start"
-                android:id="@+id/txtWelcomeToOur"
+                android:id="@+id/txtWelcometoour"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_32pxh"
                 android:layout_marginStart="@dimen/_32pxh"
                 android:layout_marginTop="@dimen/_27pxv"
                 android:layout_width="match_parent"
-                android:text="@{loginOrSignupVM.loginOrSignupModel.txtWelcomeToOur}"
+                android:text="@{loginOrSignupVM.loginOrSignupModel.txtWelcometoour}"
                 style="@style/txtPoppinsbold34" tools:text="@string/msg_welcome_to_our"/>
             <TextView android:alpha="0.4" android:gravity="start"
-                android:id="@+id/txtOurCommunityI"
+                android:id="@+id/txtOurcommunityi"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_32pxh"
                 android:layout_marginStart="@dimen/_32pxh"
                 android:layout_marginTop="@dimen/_12pxv"
                 android:layout_width="match_parent"
-                android:text="@{loginOrSignupVM.loginOrSignupModel.txtOurCommunityI}"
+                android:text="@{loginOrSignupVM.loginOrSignupModel.txtOurcommunityi}"
                 style="@style/txtPoppinsregular12" tools:text="@string/msg_our_community_i"/>
             <ImageView android:id="@+id/imageLogo"
                 android:layout_gravity="center_horizontal"
@@ -49,14 +49,14 @@
                 android:scaleType="fitXY" android:src="@drawable/img_logo_1"/>
             <TextView android:alpha="0.8" android:ellipsize="end"
                 android:gravity="center_horizontal"
-                android:id="@+id/txtGetInThrough"
+                android:id="@+id/txtGetinthrough"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_26pxh"
                 android:layout_marginStart="@dimen/_26pxh"
                 android:layout_marginTop="@dimen/_31pxv"
                 android:layout_width="match_parent"
                 android:singleLine="true"
-                android:text="@{loginOrSignupVM.loginOrSignupModel.txtGetInThrough}"
+                android:text="@{loginOrSignupVM.loginOrSignupModel.txtGetinthrough}"
                 style="@style/txtPoppinssemibold18" tools:text="@string/lbl_get_in_through"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:ellipsize="end" android:gravity="center"
